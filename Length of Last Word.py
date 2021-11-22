@@ -1,9 +1,8 @@
 def lengthOfLastWord(s):
     s = s.split()
-    c = []
-    for i in s:
-        c.append(len(i))
-    return ((c[::-1][0]))
+    p = len(s) - 1
+    i = len(s[p])
+    return i
 
 t1 = "   fly me   to   the moon  "
 t2 = "Today is a nice day"
